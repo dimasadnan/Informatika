@@ -25,3 +25,14 @@ def kalkulator(x, y, operasi="+"):
 
 hasil = kalkulator(20, 10, "*")
 print(hasil)
+
+umur = 13
+pendidikan = "s1"
+jeniskelamin = "laki-laki"
+status = "belum menikah"
+
+if (pendidikan == "s1" or pendidikan == "d3") and umur >= 21 and jeniskelamin == "laki-laki" and status == "belum menikah":
+    print("boleh kerja")
+else:
+    print("nda boleh")
+
